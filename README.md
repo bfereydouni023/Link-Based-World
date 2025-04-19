@@ -1,1 +1,1 @@
-
+Apologies for the late submission. I was unfortuantely very sick this week, making me fall behind from my schedule and my assignments. I have submitted an incomplete version of the assignment prior to the due date on friday, but plan on submitting the completed assignment saturday morning. I had contacted my monday section as well alerting them of my illness for proof of my sickness. I would greatly appreciate it if my submission on saturday would be considered as partial credit, if not I completely understand.
