@@ -1,19 +1,23 @@
 {
-    "Title": "Campus Life on the West Side",
-    "Credits": "Created by Adam Smith (amsmith@ucsc.edu).",
-    "InitialLocation": "Kresge",
+    "Title": "Koi Pond Quest!",
+    "Credits": "Created by Ben Fereydouni.",
+    "InitialLocation": "Sammy",
     "Locations": {
         "Kresge": {
-            "Body": "This is Kresge College, lots of nice trees.",
+            "Body": "Walking passed beautiful redwoods, you find yourself at Kresge College. The newly made lecture halls look very chique and welcoming, with students flowing in and out. There's a convenience store named the Owl Shop that has a lot of tasty snacks available for purchase!",
             "Choices": [
                 {
                     "Text": "South",
                     "Target": "Porter"
+                },
+                {
+                    "Text": "Back to Sammy",
+                    "Target": "Sammy"
                 }
             ]
         },
         "Porter": {
-            "Body": "This is Porter College, the trees are nice here too.",
+            "Body": "Crossing a beautiful bridge through the forest, you arrive at Porter College. If you thought Kresge was bubbling with students, you see even more fellow learners flowing from the nearby Department of Art campus towards Porter's. The campus is more open than Kresge, with a courtyard to the west. That is probably where the Koi Pond is.",
             "Choices": [
                 {
                     "Text": "North",
@@ -22,16 +26,21 @@
                 {
                     "Text": "South",
                     "Target": "Rachel Carson"
+                },
+                {
+                    "Text": "West",
+                    "Target": "The Koi Pond"
                 }
             ]
         },
         "Rachel Carson": {
-            "Body": "Rachel Carson College, more sun and fewer trees.",
+            "Body": "Moving further South of the UCSC campus, you arrive at Rachel Carson. Immediately you notice this part of campus is much more open and sunny, allowing you to get a nice tan in while you explore.",
             "Choices": [
                 {
                     "Text": "North",
                     "Target": "Porter"
                 },
+
                 {
                     "Text": "South",
                     "Target": "Oakes"
@@ -39,20 +48,63 @@
             ]
         },
         "Oakes": {
-            "Body": "Oakes College, even the buildings have tree bark on them.",
+            "Body": "Moving even further South, you reach Oakes Cafe, a lucious tree covered campus similar to the colleges prior to Rachel Carson. The shade is very welcomed by you. Nearby there's a gorgeous garden filled with plots of various fruits and veggies that students have been growing. Apart from the garden and the trees, you'd think that UCSC can't get prettier until the Oakes meadow catches your eye. You can see the rest of Santa Cruz and the beautiful ocean hugging the coasts of the city. It feels like looking onto earth from the heavens.",
             "Choices": [
                 {
                     "Text": "North",
                     "Target": "Rachel Carson"
                 },
                 {
-                    "Text": "South",
-                    "Target": "Beyond"
+                    "Text": "East",
+                    "Target": "Oakes Cafe"
                 }
             ]
         },
         "Beyond": {
             "Body": "Grass, don't forget to check for ticks!"
+        },
+        "The Koi Pond": {
+            "Body1": "You arrive at an extremely pretty, peaceful courtyard with the sound of flowing water serenading you. As you walk towards the sound, you finally find yourself at the Koi Pond, and Sammy was right. This is a must see place. You walk up to see the numerous colorful Koi swimming around, and they seem excited by your arrival! They swim towards you expectedly. At first you chuckle, assuming they are being gluttenous and expecting you to feed them, but something at the back of your mind seems to staunchly disagree. You feel like they are expecting something else from you.",
+            "Choices": [
+                {
+                    "Text": "East",
+                    "Target": "Porter"
+                }
+            ]
+        },
+        "Oakes Cafe": {
+            "Body": "You enter the cafe and are welcomed with a cool breeze from the AC. There are shelves stocked with various goodies, a small candy aisle, fridges stocked with fruit salads and sanwiches as well as a menu over the cash register enscripted with various drink and food sections. You were in the mood for a drink anyway so you step into the line to order. While waiting your eye seems to be magnetically attracted to a coffee on the menu 'Sammys Special Brew'. 'Hello! What would like to order?' The cashier asks, snapping you out of your thoughts.",
+            "Choices": [
+                {
+                    "Text": "Exit the Cafe and head West",
+                    "Target": "Oakes College"
+                },
+                {
+                    "Text": "Order Sammy's Brew",
+                    "Target": "Secret Koi Shrine"
+                }
+            ]
+        },
+        "Secret Koi Shrine": {
+            "Body": "The barista looks around quickly before making eye contact with you again and nodding, indicating that you should follow them. They lead you to a hallway by the cash register with numerous 'Employees Only!' signs on the walls. They do not seem to bother the barista. You eventually reach a storage closet and the barista steps up to open it, only to take a deep breath, pause, and perform an almost minute long rhythmic knock on the door before opening it. The barista begins to open the door only slightly ajar and indicates to you to step in. As the door creaks open, a glowing yellow light emits from the small opening of the door. You hesitantly step in and see a room littered with statues, paintings, even poetry on what seems to be parchment paper predating the campus, all related with...Koi fish? Your eyes finally focus to the center of the room, where a golden Koi... no statue isnt the right word... a golden Koi Idol rests upon a velvet cushion atop a marble stand.",
+            "Choices": [
+                {
+                    "Text": "Obtain the Koi Idol"
+                },
+                {
+                    "Text": "Exit the Shrine",
+                    "Target": "Oakes Cafe"
+                }
+            ]
+        },
+        "Sammy": {
+            "Body": "Welcome to UC Santa Cruz! I'm sure you have noticed the campus is basically its own town on top of the mountain, filled with many beautiful and mystical sites waiting to be discovered! I don't want you to get lost so for now you are going to explore the west side of campus only! You should definitely check out the Koi Pond, its in a pretty courtyard near Porter you won't miss it! I can't follow you along because I have other students to help, but always feel free to come back to me if you need a reminder of what to do! Now go on and explore the nearby colleges!",
+            "Choices": [
+                {
+                    "Text": "Get Roaming!",
+                    "Target": "Kresge"
+                }
+            ]
         }
     }
 }
